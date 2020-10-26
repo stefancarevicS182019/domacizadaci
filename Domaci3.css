@@ -1,0 +1,108 @@
+.Header {
+padding: 2px;
+text-align: center;
+background-color: gold;
+color: black;
+font-size: 20px;
+border-style: dotted;
+margin:10px;
+
+}
+
+.Warp {
+border-radius: 100%;
+width: 100px;
+height: 100px;
+margin-right: 100%;
+margin-bottom: 2%;
+display: flex;
+
+}
+
+.Nav {
+background-color: black;
+overflow: hidden;
+}
+
+.Nav a {
+    float: left;
+    display: block;
+    color: gold;
+    text-align: right;
+    padding: 20px 20px;
+    font-size: 15px;
+    border-bottom: 5px solid transparent;
+}
+
+.Nav a:hover {
+border: 3px solid black;
+}
+
+.Nav a:active {
+border: 3px solid black;
+}
+
+.FORMA {
+padding: 10px;
+margin: 10px;
+margin-left: 900px;
+background-color: gold;
+text-align: right;
+border-style: dotted;
+}
+.reg{
+text-align: center;
+font-size: 25px;
+float: top;
+display: inline block;
+
+} 
+.img1 {
+background-color: gold;
+
+}
+
+.proizvodi {
+float:left;
+width: 33,33%;
+padding: 5px;
+}
+
+.red::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.FORMA2 {
+background-color: gold;
+float: right;
+padding: 5px;
+margin-top: 125px;
+}
+
+.red {
+border-style: dotted;
+
+}
+
+.News {
+background-color: gold;
+border-style: dotted;
+margin-top: 10px;
+}
+
+.img2 {
+margin-left: 200px;
+margin-bottom: 10px;
+
+}
+
+.Footer {
+background-color: gold;
+border-style: dotted;
+margin-top: 10px;
+text-align: center;
+}
+
+
