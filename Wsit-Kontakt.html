@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Wsit - Kontakt.css">
+</head>
+<body>
+    <div class="Prva_Celina">
+
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+        <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(44.787197, 20.457273),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCchlMZYFQeSdI41Jme5vK_uHPIIqhAZAI&callback=myMap"></script>
+        
+    </div>
+
+
+    
+    <div class="Druga_Celina">
+        
+        <h1 style="text-align: center;">Kontaktirajte nas</h1>
+        
+        <div class="forma">
+          <form action="sacuvano.php">
+            <label for="Ime">Ime </label>
+            <input type="text" id="Ime" name="ime" placeholder="Ime">
+        
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail">
+            <label for="Poruka">Poruka</label>
+            <textarea id="Poruka" name="Poruka" placeholder="Ostavite poruku" style="height:200px"></textarea>
+        
+            <input type="submit" value="pošalji">
+          </form>
+        </div>
+        
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>
